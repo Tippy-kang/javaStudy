@@ -20,7 +20,7 @@
         <module name="changgou_service_order" />
         <module name="changgou_web" />
         <module name="changgou_service_goods_api" />
-        <module name="changgou_gateway" />
+        <module name="changgou_gateway_system" />
         <module name="changgou_canal" />
         <module name="changgou_service_goods" />
         <module name="changgou_service_config_api" />
@@ -34,7 +34,8 @@
       <module name="changgou_common" options="-parameters" />
       <module name="changgou_common_db" options="-parameters" />
       <module name="changgou_eureka" options="-parameters" />
-      <module name="changgou_gateway" options="-parameters" />
+      <module name="changgou_gateway" options="" />
+      <module name="changgou_gateway_system" options="-parameters" />
       <module name="changgou_service" options="" />
       <module name="changgou_service_api" options="" />
       <module name="changgou_service_business" options="-parameters" />
