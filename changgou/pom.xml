@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>changgou_canal</module>
         <module>changgou_gateway</module>
         <module>changgou_service</module>
         <module>changgou_service_api</module>
@@ -16,8 +17,6 @@
         <module>changgou_eureka</module>
         <module>changgou_common</module>
         <module>changgou_common_db</module>
-        <module>changgou_service_api/changgou_service_goods_api</module>
-        <module>changgou_service/changgou_service_goods</module>
     </modules>
 
     <parent>

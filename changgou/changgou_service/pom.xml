@@ -10,11 +10,20 @@
     </parent>
 
     <artifactId>changgou_service</artifactId>
-
+    <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <modules>
+        <module>changgou_service_goods</module>
+        <module>changgou_service_order</module>
+        <module>changgou_service_config</module>
+        <module>changgou_service_business</module>
+        <module>changgou_service_user</module>
+        <module>changgou_service_system</module>
+        <module>changgou_service_file</module>
+    </modules>
 
 </project>
