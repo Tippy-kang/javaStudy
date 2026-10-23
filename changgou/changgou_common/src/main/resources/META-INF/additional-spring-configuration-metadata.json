@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "hystrix.command.default.execution.timeout.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "Hystrix 超时开关，设置为 false 时请求超时交由 ribbon 控制。"
+    },
+    {
+      "name": "hystrix.command.default.execution.isolation.strategy",
+      "type": "java.lang.String",
+      "defaultValue": "THREAD",
+      "description": "Hystrix 隔离策略：THREAD 或 SEMAPHORE。"
+    }
+  ]
+}
